@@ -1,0 +1,62 @@
+.services .chessdesk {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.services .chessdesk .left {
+    width: 66.6667%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.services .chessdesk .left-block {
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+    color: #665f60;
+}
+
+.services .chessdesk .left-block:hover {
+    background: #c1bfd9;
+    cursor: pointer;
+}
+
+.services .chessdesk .left-block .title {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.services .chessdesk .left-block .description {
+    font-size: 18px;
+    font-style: italic;
+    padding-bottom: 135px;
+}
+
+.services .chessdesk .left-block-1,
+.services .chessdesk .left-block-4 {
+    background-color: #dbdbdb;
+}
+
+.services .chessdesk .right {
+    width: 33.3333%;
+    background-image: url("../img/mobile-bg.png");
+    padding-top: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+.services .chessdesk .right .title {
+    font-family: "ProximaNova";
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 32px;
+    margin: 30px 0 120px;
+}

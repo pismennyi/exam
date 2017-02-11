@@ -1,0 +1,72 @@
+header {
+    font-family: "Proxima Nova";
+}
+
+.header-bg {
+    width: 100%;
+    height: 1070px;
+    background-image: url("../img/top-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+.top {
+    height: 100px;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+}
+
+.logo {
+    background-image: url("../img/logo.png");
+    height: 71px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+.menu {
+    ul {
+        .menu-list {
+            display: inline-block;
+            list-style: none;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 24px;
+            padding-left: 15px;
+
+            a {
+                color: #fff;
+            }
+
+            a:hover {
+                opacity: 0.9;
+                text-shadow:1px 1px 6px #cccae4;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.main-title {
+    color: #fff;
+    text-align: center;
+
+    .main-title-name {
+        font-size: 70px;
+        line-height: 60px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 285px;
+    }
+
+    .main-title-text {
+        font-size: 30px;
+        font-style: italic;
+        font-weight: 400;
+        margin-top: 40px;
+    }
+}
